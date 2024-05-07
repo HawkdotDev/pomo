@@ -1,0 +1,25 @@
+{
+  "name": "pomi",
+  "version": "1.0.0",
+  "description": "cli tool for productivity using pomodoro technique",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HawkdotDev/pomi.git"
+  },
+  "keywords": [
+    "time management",
+    "task manager",
+    "pomodoro",
+    "pomi"
+  ],
+  "author": "HawkdotDev",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "express": "^4.19.2"
+  }
+}
