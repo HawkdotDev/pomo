@@ -37,10 +37,7 @@ function openDefaultBrowser(url) {
 }
 
 function startUI(port) {
-  // app.use(express.static(path.join(__dirname, "frontend")));
-  // const indexPath = path.join(__dirname, 'frontend').replace(/\\/g, '/');
-  // console.log(indexPath)
-  app.use(express.static("./frondend"));
+  app.use(express.static("./frontend"));
   startServer(port);
 }
 
