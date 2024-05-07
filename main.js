@@ -10,7 +10,7 @@ const app = express();
 function startServer(port) {
   try {
     app.listen(port, () => {
-      console.log(`UI running at http://localhost:${port}`);
+      console.log(`pomi is running at http://localhost:${port}`);
       openDefaultBrowser(`http://localhost:${port}`);
     });
   } catch (error) {
